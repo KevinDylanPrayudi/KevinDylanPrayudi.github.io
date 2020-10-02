@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f6fa;
+}
+
+.container {
+    padding: 0 5.5vw;
+}
+
+header nav .container {
+    background-color:#fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header nav .container .nav-logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #a092ce;
+}
+
+header nav .container .nav-list ul {
+    display: flex;
+}
+
+header nav .container .nav-list ul li {
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    padding:0 10px;
+    color: #a092ce;
+}
+
+section:first-child {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-image:url('assets/svg/svg-pertama.svg');
+    background-repeat:no-repeat;
+    background-position:right bottom;
+    background-size: 51%;
+    background-origin: content-box;
+    padding-top: 43.5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+section:first-child .container h1 {
+    position: absolute;
+    top: 16vw;
+    width: 50%;
+    font-size: 3.5vw;
+    color: #8473ba;
+    font-weight:normal;
+}
+
+section:first-child .container h1 span {
+    font-weight:bold;
+}
+
+section:nth-child(2) {
+    background-image: url(assets/svg/Vector_3.svg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 58.5%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-bottom: #a092ce solid 30px;
+}
+
+section:nth-child(2) .container {
+    position: absolute;
+    top: 8vw;
+    display:flex;
+    justify-content:space-between;
+}
+
+section:nth-child(2) .container .content-wrapper {
+    color: #f5f6fa;
+    width: 40%;
+    margin-bottom: 3.5vw;
+}
+
+section:nth-child(2) .container .content-wrapper h4 {
+    font-size: 3vw; 
+}
+
+section:nth-child(2) .container .content-wrapper ol li {
+    font-size: 2vw;
+    margin: 1.2vw;
+    word-wrap: break-word;
+    line-height: 3.5vw;
+}
+
+section:nth-child(2) .container .ilustration-1 {
+    width: 40%;
+    margin-top: -4vw;
+}
+
+section:nth-child(3) {
+    border-top: #a092ce solid 10px;
+    background-image: url(assets/svg/Vector_1.svg);
+    background-repeat:no-repeat;
+    background-size: auto 56vw;
+    padding-top: 58.5%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+
+section:nth-child(3) .container {
+    position: absolute;
+    right:0;
+    top: 12vw;
+    border: 1px solid black;
+}
+
+section:nth-child(3) .container .content-wrapper ol li {
+    font-size: 2vw;
+    word-wrap: break-word;
+}
